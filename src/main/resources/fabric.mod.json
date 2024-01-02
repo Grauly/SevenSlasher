@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "sevenslasher",
+  "version": "${version}",
+  "name": "SevenSlasher",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/grauly/SevenSlasher"
+  },
+  "license": "MIT",
+  "icon": "assets/sevenslasher/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "grauly.sevenslasher.client.SevenSlasherClient"
+    ],
+    "main": [
+      "grauly.sevenslasher.SevenSlasher"
+    ]
+  },
+  "mixins": [
+    "sevenslasher.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
