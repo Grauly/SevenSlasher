@@ -1,4 +1,4 @@
-package grauly.sevenslasher.client;
+package grauly.sevenslasher;
 
 import net.fabricmc.api.ClientModInitializer;
 

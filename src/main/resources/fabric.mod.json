@@ -13,10 +13,7 @@
   "environment": "client",
   "entrypoints": {
     "client": [
-      "grauly.sevenslasher.client.SevenSlasherClient"
-    ],
-    "main": [
-      "grauly.sevenslasher.SevenSlasher"
+      "grauly.sevenslasher.SevenSlasherClient"
     ]
   },
   "mixins": [
